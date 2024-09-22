@@ -1,5 +1,5 @@
 
-# Invitación de Boda - Iván & Sarahí
+# Invitación de Boda - Sarahí & Iván 
 
 Este repositorio contiene el código fuente de la página web de invitación para la boda de **Iván y Sarahí**, que tendrá lugar el **25 de enero de 2025**. La página está desarrollada en **React** usando **Vite**, con **Tailwind CSS** para el diseño y **AOS** para animaciones al hacer scroll.
 
