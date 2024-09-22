@@ -1,9 +1,14 @@
+import Bienvenida from "./components/bienvenida";
+import Confirmacion from "./components/Confirmacion";
+import Detalles from "./components/Detalles";
 import Invitation from "./components/Invitation";
 
 function App() {
   return (
     <div>
-      <Invitation />
+      <Bienvenida />
+      <Detalles />
+      <Confirmacion />
     </div>
   );
 }
