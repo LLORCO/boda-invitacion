@@ -1,4 +1,4 @@
-import Bienvenida from "./components/bienvenida";
+import Bienvenida from "./components/Bienvenida";
 import Confirmacion from "./components/Confirmacion";
 import Detalles from "./components/Detalles";
 import Invitation from "./components/Invitation";
