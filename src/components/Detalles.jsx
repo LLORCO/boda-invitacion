@@ -6,8 +6,8 @@ import { PiCheersThin } from "react-icons/pi";
 const Detalles = () => {
   return (
     <div>
-      <section className="py-10 px-4 bg-gray-200" data-aos="fade-up">
-        <h2 className="text-3xl font-semibold text-center">
+      <section className="py-10 px-4" data-aos="fade-up">
+        <h2 className="text-4xl font-parisienne text-center">
           Detalles del Evento
         </h2>
 
@@ -17,13 +17,13 @@ const Detalles = () => {
             className="bg-white p-6 rounded-lg shadow-lg"
             data-aos="fade-right"
           >
-            <h3 className="text-2xl font-bold text-gray-800">
+            <h3 className="text-2xl font-parisienne text-gray-800">
               Ceremonia en la Iglesia
             </h3>
             <p className="text-4xl font-bold text-gray-800 flex justify-center py-5">
                 <GiChurch />
             </p>
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 font-cormorant italic text-gray-600">
               La ceremonia religiosa se llevará a cabo en la Iglesia de
               Guadalupe Enriquez a la 1:00 PM.
             </p>
@@ -37,13 +37,13 @@ const Detalles = () => {
             className="bg-white p-6 rounded-lg shadow-lg"
             data-aos="fade-left"
           >
-            <h3 className="text-2xl font-bold text-gray-800">
+            <h3 className="text-2xl font-parisienne text-gray-800">
               Fiesta de Celebración
             </h3>
             <p className="text-4xl font-bold text-gray-800 flex justify-center py-5">
             <PiCheersThin />
             </p>
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 font-cormorant italic text-gray-600">
               La fiesta tendrá lugar en el Salón La Fundicion a las 3:00 PM.
             </p>
             <p className="mt-2 text-gray-600">

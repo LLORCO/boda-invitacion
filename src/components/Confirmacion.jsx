@@ -1,9 +1,10 @@
 import React from "react";
 
+
 const Confirmacion = () => {
   return (
     <div>
-      <section className="py-10 bg-white text-center" data-aos="fade-up">
+      <section className="py-10  text-center" data-aos="fade-up">
         <h2 className="text-3xl font-semibold text-gray-800">RSVP</h2>
         <p className="mt-4 text-gray-600">
           Por favor, confirma tu asistencia antes del 10 de enero de 2025.
