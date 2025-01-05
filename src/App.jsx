@@ -1,5 +1,5 @@
 import { GiChurch } from "react-icons/gi";
-import { PiCheersThin } from "react-icons/pi";
+import { PiCheersThin, PiCowboyHat, PiDress } from "react-icons/pi";
 
 import fondo from "../public/s3.jpg";
 import fondoVino from "../public/fondoVino.jpg";
@@ -145,9 +145,14 @@ function App() {
                   La ceremonia religiosa se llevará a cabo en la Iglesia de
                   Guadalupe Enriquez a la 4:00 PM.
                 </p>
-                <p className="mt-2 text-gray-600">
-                  Dirección: 75475 Guadalupe Enríquez, Pue.
-                </p>
+                <button
+                  className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700 mt-2"
+                  onClick={() =>
+                    (window.location.href = "https://maps.app.goo.gl/TRCQTb72ZDnYxbYz8")
+                  }
+                >
+                  Ver Ubicación
+                </button>
               </div>
 
               {/* Fiesta de Celebración */}
@@ -162,12 +167,16 @@ function App() {
                   <PiCheersThin />
                 </p>
                 <p className="mt-4 font-cormorant italic text-gray-600">
-                  La fiesta tendrá lugar en el Salón La Fundicion a las 6:00 PM.
+                  La fiesta tendrá lugar en el Salón La Fundicion a las 6:30 PM.
                 </p>
-                <p className="mt-2 text-gray-600">
-                  Dirección: San Martin de Porres, Centro, 75480 Tecamachalco,
-                  Pue.
-                </p>
+                <button
+                  className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700 mt-2"
+                  onClick={() =>
+                    (window.location.href = "https://maps.app.goo.gl/bn8kXoqnsXSCYQY99")
+                  }
+                >
+                  Ver Ubicación
+                </button>
               </div>
             </div>
 
@@ -180,8 +189,11 @@ function App() {
                 <h3 className="text-2xl font-parisienne text-gray-800">
                   Código de vestimenta
                 </h3>
+                <p className="text-4xl font-bold text-gray-800 flex justify-center py-5">
+                  <PiDress />
+                </p>
                 <p className="mt-4 font-cormorant italic text-gray-600">
-                  Ropa Formal/Libre de Cena
+                  Formal para cena/Libre
                 </p>
               </div>
             </div>
@@ -201,15 +213,16 @@ function App() {
               <button
                 className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
                 onClick={() =>
-                  (window.location.href = "https://wa.me/2221234567")
+                  (window.location.href = "https://wa.me/2212740367")
                 }
               >
                 Confirmar con el Novio
               </button>
-              <button className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
-              onClick={() =>
-                (window.location.href = "https://wa.me/2491784903")
-              }
+              <button
+                className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
+                onClick={() =>
+                  (window.location.href = "https://wa.me/2491784903")
+                }
               >
                 Confirmar con la Novia
               </button>
