@@ -51,11 +51,7 @@ function App() {
 
             <div className="flex justify-center my-8">
               <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  className="w-full"
-                  src={Novios}
-                  alt="Novios.jpg"
-                />
+                <img className="w-full" src={Novios} alt="Novios.jpg" />
               </div>
             </div>
 
@@ -202,10 +198,19 @@ function App() {
               2025 para poder organizar todo de la mejor manera posible.
             </p>
             <div className="mt-6 flex justify-center space-x-4">
-              <button className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700">
+              <button
+                className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
+                onClick={() =>
+                  (window.location.href = "https://wa.me/2221234567")
+                }
+              >
                 Confirmar con el Novio
               </button>
-              <button className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700">
+              <button className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
+              onClick={() =>
+                (window.location.href = "https://wa.me/2491784903")
+              }
+              >
                 Confirmar con la Novia
               </button>
             </div>
