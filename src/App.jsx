@@ -37,7 +37,7 @@ function App() {
         {/* Banner */}
         <img
           src="/src/assets/brillosDorados.png"
-          alt="Brillos dorados"
+          alt="brillosDorados.png"
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 opacity-50"
         />
         {/* Bienvenida */}
@@ -52,7 +52,7 @@ function App() {
                 <img
                   className="w-full"
                   src="/src/assets/Novios.jpg"
-                  alt="Novios"
+                  alt="Novios.jpg"
                 />
               </div>
             </div>
