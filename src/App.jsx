@@ -3,6 +3,8 @@ import { PiCheersThin } from "react-icons/pi";
 
 import fondo from "../public/s3.jpg";
 import fondoVino from "../public/fondoVino.jpg";
+import brillosDorados from "../public/brillosDorados.png";
+import Novios from "../public/Novios.jpg";
 
 const BannerImg = {
   backgroundImage: `url(${fondo})`,
@@ -36,7 +38,7 @@ function App() {
       >
         {/* Banner */}
         <img
-          src="/public/brillosDorados.png"
+          src={brillosDorados}
           alt="brillosDorados.png"
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 opacity-50"
         />
@@ -51,7 +53,7 @@ function App() {
               <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src="/public/Novios.jpg"
+                  src={Novios}
                   alt="Novios.jpg"
                 />
               </div>
