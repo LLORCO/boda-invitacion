@@ -1,7 +1,3 @@
-import Bienvenida from "./components/bienvenida";
-import Confirmacion from "./components/Confirmacion";
-import Detalles from "./components/Detalles";
-
 import { GiChurch } from "react-icons/gi";
 import { PiCheersThin } from "react-icons/pi";
 
