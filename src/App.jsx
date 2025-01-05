@@ -201,7 +201,7 @@ function App() {
               <button
                 className="px-8 py-3 bg-gray-800 text-white font-cormorant italic rounded-full shadow-lg hover:bg-gray-700"
                 onClick={() =>
-                  (window.location.href = "https://wa.me/2221234567")
+                  (window.location.href = "https://wa.me/2212740367")
                 }
               >
                 Confirmar con el Novio
