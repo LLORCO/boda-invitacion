@@ -1,8 +1,8 @@
 import { GiChurch } from "react-icons/gi";
 import { PiCheersThin } from "react-icons/pi";
 
-import fondo from "../public/assets/s3.jpg";
-import fondoVino from "../public/assets/fondoVino.jpg";
+import fondo from "../public/s3.jpg";
+import fondoVino from "../public/fondoVino.jpg";
 
 const BannerImg = {
   backgroundImage: `url(${fondo})`,
@@ -36,7 +36,7 @@ function App() {
       >
         {/* Banner */}
         <img
-          src="/public/assets/brillosDorados.png"
+          src="/public/brillosDorados.png"
           alt="brillosDorados.png"
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/2 opacity-50"
         />
@@ -51,7 +51,7 @@ function App() {
               <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src="/public/assets/Novios.jpg"
+                  src="/public/Novios.jpg"
                   alt="Novios.jpg"
                 />
               </div>
